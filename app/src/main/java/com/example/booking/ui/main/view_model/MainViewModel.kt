@@ -3,9 +3,8 @@ package com.example.booking.ui.main.view_model
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.booking.data.dto.CategoryItems
+import com.example.booking.domain.model.CategoryItems
 import com.example.booking.domain.api.CategoryInteractor
-import com.example.booking.domain.model.Category
 import com.example.booking.ui.main.CategoryState
 
 class MainViewModel(

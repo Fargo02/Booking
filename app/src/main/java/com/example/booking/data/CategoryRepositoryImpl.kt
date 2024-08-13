@@ -1,7 +1,7 @@
 package com.example.booking.data
 
 import android.util.Log
-import com.example.booking.data.dto.CategoryItems
+import com.example.booking.domain.model.CategoryItems
 import com.example.booking.data.dto.CategoryRequest
 import com.example.booking.data.dto.CategoryResponse
 import com.example.booking.domain.api.CategoryRepository
@@ -20,12 +20,16 @@ class CategoryRepositoryImpl(
                 (response as CategoryResponse).item.map {
                     CategoryItems(
                         category = it.category,
-                        data = it.data
+                        name = it.name,
+                        rating = it.rating,
+                        site = it.site,
+                        address = it.address,
+                        cost = it.cost,
                     )
                 }
             }
             else -> {
-                Log.i("ErrorRequest", "Ошибка сервера")
+                Log.i("ErrorRequest", "Ошибка сервера ${response.resultCode}")
                 emptyList()
             }
         }

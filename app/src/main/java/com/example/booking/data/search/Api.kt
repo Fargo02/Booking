@@ -6,7 +6,7 @@ import retrofit2.http.GET
 
 interface Api {
 
-    @GET("master/app/src/main/utils/location.json")
+    @GET("master/app/src/main/java/com/example/booking/utils/location.json")
     fun getCategory(): Call<CategoryResponse>
 
 }

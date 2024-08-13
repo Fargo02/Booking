@@ -1,7 +1,6 @@
 package com.example.booking.ui.main
 
-import com.example.booking.data.dto.CategoryItems
-import com.example.booking.domain.model.Category
+import com.example.booking.domain.model.CategoryItems
 
 sealed interface CategoryState {
     object Loading : CategoryState

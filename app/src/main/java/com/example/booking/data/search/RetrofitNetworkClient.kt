@@ -1,5 +1,6 @@
 package com.example.booking.data.search
 
+import android.util.Log
 import com.example.booking.data.NetworkClient
 import com.example.booking.data.dto.CategoryRequest
 import com.example.booking.data.dto.Response
@@ -13,7 +14,8 @@ class RetrofitNetworkClient(
                 val response = service.getCategory().execute()
                 val body = response.body()
                 return if (body != null) {
-                    Response().apply { resultCode = 204 }
+                    Log.i("Request", "${response.code()}")
+                    body.apply { resultCode = response.code() }
                 } else {
                     Response().apply { resultCode = response.code() }
                 }

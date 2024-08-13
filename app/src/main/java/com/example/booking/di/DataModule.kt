@@ -12,7 +12,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 val dataModule = module {
     single<Api> {
         Retrofit.Builder()
-            .baseUrl("https://raw.githubusercontent.com/Fargo02/JetpackCompose/")
+            .baseUrl("https://raw.githubusercontent.com/Fargo02/Booking/")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
             .create(Api::class.java)

@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         viewModel.doRequest()
 
         viewModel.observeState().observe(this){ test ->
-            Log.i("wait", "$test")
+            Log.i("waitLable", "$test")
         }
 
     }
