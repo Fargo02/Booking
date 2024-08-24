@@ -1,4 +1,4 @@
-package com.example.booking.ui.main
+package com.example.booking.ui.home.view_model
 
 import com.example.booking.domain.model.CategoryItems
 
@@ -6,7 +6,7 @@ sealed interface CategoryState {
     object Loading : CategoryState
 
     data class Content(
-        val movies: List<CategoryItems>
+        val categoryItems: List<CategoryItems>
     ) : CategoryState
 
     data class Error(

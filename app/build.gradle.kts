@@ -10,7 +10,7 @@ android {
     defaultConfig {
         applicationId = "com.example.booking"
         minSdk = 29
-        targetSdk = 34
+        targetSdk = 33
         versionCode = 1
         versionName = "1.0"
 
@@ -40,6 +40,10 @@ android {
 
 dependencies {
 
+    implementation ("androidx.navigation:navigation-fragment-ktx:2.7.7")
+    implementation ("androidx.navigation:navigation-ui-ktx:2.7.7")
+    implementation ("com.facebook.shimmer:shimmer:0.5.0")
+
     implementation (libs.glide)
     implementation (libs.gson)
     implementation (libs.retrofit)
@@ -52,6 +56,7 @@ dependencies {
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.fragment.ktx)
+    implementation(libs.androidx.fragment)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
