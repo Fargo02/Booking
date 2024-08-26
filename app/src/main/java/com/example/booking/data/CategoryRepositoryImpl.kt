@@ -25,6 +25,7 @@ class CategoryRepositoryImpl(
                         site = it.site,
                         address = it.address,
                         cost = it.cost,
+                        url = it.url
                     )
                 }
             }

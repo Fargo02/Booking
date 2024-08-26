@@ -15,6 +15,7 @@ retrofit = "2.11.0"
 converterGson = "2.11.0"
 koinAndroid = "3.3.0"
 fragmentKtx = "1.8.2"
+fragment = "1.8.2"
 
 
 
@@ -33,6 +34,7 @@ retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = 
 converter-gson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "converterGson" }
 koin-android = { module = "io.insert-koin:koin-android", version.ref = "koinAndroid" }
 androidx-fragment-ktx = { group = "androidx.fragment", name = "fragment-ktx", version.ref = "fragmentKtx" }
+androidx-fragment = { group = "androidx.fragment", name = "fragment", version.ref = "fragment" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

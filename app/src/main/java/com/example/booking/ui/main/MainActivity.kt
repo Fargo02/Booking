@@ -1,25 +1,24 @@
 package com.example.booking.ui.main
 
 import android.os.Bundle
-import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
+import androidx.navigation.fragment.NavHostFragment
+import androidx.navigation.ui.setupWithNavController
 import com.example.booking.R
-import com.example.booking.ui.main.view_model.MainViewModel
-import org.koin.androidx.viewmodel.ext.android.viewModel
+import com.example.booking.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity() {
+class MainActivity :AppCompatActivity()  {
 
-    private val viewModel by viewModel<MainViewModel>()
+    private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
-        viewModel.doRequest()
+        val navHostFragment = supportFragmentManager.findFragmentById(R.id.fragmentContainerView) as NavHostFragment
+        val navController = navHostFragment.navController
 
-        viewModel.observeState().observe(this){ test ->
-            Log.i("waitLable", "$test")
-        }
-
+        binding.bottomNavigationView.setupWithNavController(navController)
     }
 }
