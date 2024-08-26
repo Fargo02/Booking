@@ -8,7 +8,7 @@ import com.example.booking.domain.model.CategoryItems
 
 class LocationAdapter(): RecyclerView.Adapter<LocationViewHolder>() {
 
-    val locations = ArrayList<CategoryItems>()
+    var locations = ArrayList<CategoryItems>()
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): LocationViewHolder {
         val layoutInspector = LayoutInflater.from(parent.context)

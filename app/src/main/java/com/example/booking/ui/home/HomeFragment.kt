@@ -23,6 +23,9 @@ class HomeFragment(): BindingFragment<FragmentHomeBinding>() {
             }
         }
     )
+
+    private val locationAdapter = LocationAdapter()
+
     private var categoryItems = ArrayList<CategoryItems>()
 
     private val viewModel by viewModel<HomeFragmentViewModel>()
@@ -37,6 +40,10 @@ class HomeFragment(): BindingFragment<FragmentHomeBinding>() {
         categoriesAdapter.categories = categoryItems
         binding.categoriesList.layoutManager = LinearLayoutManager(requireContext(), LinearLayoutManager.HORIZONTAL, false)
         binding.categoriesList.adapter = categoriesAdapter
+
+        locationAdapter.locations = categoryItems
+        binding.locationList.layoutManager = LinearLayoutManager(requireContext(), LinearLayoutManager.HORIZONTAL, false)
+        binding.locationList.adapter = locationAdapter
 
         viewModel.doRequest()
 
@@ -54,12 +61,13 @@ class HomeFragment(): BindingFragment<FragmentHomeBinding>() {
         }
     }
     private fun showContent(categoryList: List<CategoryItems>) {
-
         binding.shimmerView.stopShimmer()
         categoriesAdapter.categories.clear()
         categoriesAdapter.categories.addAll(categoryList.distinctBy { it.category })
+        locationAdapter.locations.addAll(categoryList)
         binding.categoriesList.isVisible = true
         binding.shimmerView.isVisible = false
+        locationAdapter.notifyDataSetChanged()
         categoriesAdapter.notifyDataSetChanged()
     }
 

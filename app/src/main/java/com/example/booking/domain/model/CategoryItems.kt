@@ -8,5 +8,6 @@ data class CategoryItems(
     val site: String,
     val address: String,
     val cost: Int,
-    val isSelected: Boolean = false
+    val isSelected: Boolean = false,
+    val url: String,
 )

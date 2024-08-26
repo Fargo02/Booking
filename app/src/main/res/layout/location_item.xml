@@ -20,8 +20,8 @@
 
             <ImageView
                 android:id="@+id/location_image"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_width="257dp"
+                android:layout_height="170dp"
                 android:src="@drawable/placeholder"
                 android:adjustViewBounds="true"
                 app:layout_constraintStart_toStartOf="parent"

@@ -6,7 +6,8 @@
         "rating": 5.0,
         "site": "Красноясрк",
         "address": "Улица Борисова 27",
-        "cost": 2500
+        "cost": 2500,
+        "url": "https://raw.githubusercontent.com/Fargo02/Booking/first_screen/app/src/main/java/com/example/booking/database/Property1.png"
       },
       {
         "category": "Отель",
@@ -14,7 +15,8 @@
         "rating": 4.8,
         "site": "Красноярск",
         "address": "Проспект Мира 105",
-        "cost": 3200
+        "cost": 3200,
+        "url": "https://raw.githubusercontent.com/Fargo02/Booking/first_screen/app/src/main/java/com/example/booking/database/Property3.png"
       },
       {
         "category": "Отель",
@@ -22,7 +24,8 @@
         "rating": 4.7,
         "site": "Красноярск",
         "address": "Улица Ленина 123",
-        "cost": 2800
+        "cost": 2800,
+        "url": "https://raw.githubusercontent.com/Fargo02/Booking/first_screen/app/src/main/java/com/example/booking/database/Property1.png"
       },
       {
         "category": "Отель",
@@ -30,7 +33,8 @@
         "rating": 4.6,
         "site": "Красноярск",
         "address": "Улица Карла Маркса 15",
-        "cost": 2300
+        "cost": 2300,
+        "url": "https://raw.githubusercontent.com/Fargo02/Booking/first_screen/app/src/main/java/com/example/booking/database/Property5.png"
       },
       {
         "category": "Homestay",
@@ -38,7 +42,8 @@
         "rating": 4.5,
         "site": "Красноясрк",
         "address": "Улица Почтовая 17",
-        "cost": 1500
+        "cost": 1500,
+        "url": "https://raw.githubusercontent.com/Fargo02/Booking/first_screen/app/src/main/java/com/example/booking/database/Property6.png"
       },
       {
         "category": "Homestay",
@@ -46,7 +51,8 @@
         "rating": 4.9,
         "site": "Красноярск",
         "address": "Улица Горького 22",
-        "cost": 1800
+        "cost": 1800,
+        "url": "https://raw.githubusercontent.com/Fargo02/Booking/first_screen/app/src/main/java/com/example/booking/database/Property4.png"
       },
       {
         "category": "Homestay",
@@ -54,7 +60,8 @@
         "rating": 4.7,
         "site": "Красноярск",
         "address": "Улица Красной Армии 45",
-        "cost": 1200
+        "cost": 1200,
+        "url": "https://raw.githubusercontent.com/Fargo02/Booking/first_screen/app/src/main/java/com/example/booking/database/Property1.png"
       },
       {
         "category": "Homestay",
@@ -62,7 +69,8 @@
         "rating": 4.6,
         "site": "Красноярск",
         "address": "Улица 9 Мая 38",
-        "cost": 1600
+        "cost": 1600,
+        "url": "https://raw.githubusercontent.com/Fargo02/Booking/first_screen/app/src/main/java/com/example/booking/database/Property2.png"
       },
       {
         "category": "Квартира",
@@ -70,7 +78,8 @@
         "rating": 5.0,
         "site": "Красноясрк",
         "address": "Улица Ждунов 37",
-        "cost": 1300
+        "cost": 1300,
+        "url": "https://raw.githubusercontent.com/Fargo02/Booking/first_screen/app/src/main/java/com/example/booking/database/Property3.png"
       },
       {
         "category": "Квартира",
@@ -78,7 +87,8 @@
         "rating": 4.8,
         "site": "Красноярск",
         "address": "Проспект Мира 12",
-        "cost": 1600
+        "cost": 1600,
+        "url": "https://raw.githubusercontent.com/Fargo02/Booking/first_screen/app/src/main/java/com/example/booking/database/Property1.png"
       },
       {
         "category": "Квартира",
@@ -86,7 +96,8 @@
         "rating": 4.7,
         "site": "Красноярск",
         "address": "Улица Ленина 78",
-        "cost": 2100
+        "cost": 2100,
+        "url": "https://raw.githubusercontent.com/Fargo02/Booking/first_screen/app/src/main/java/com/example/booking/database/Property4.png"
       },
       {
         "category": "Квартира",
@@ -94,7 +105,8 @@
         "rating": 4.6,
         "site": "Красноярск",
         "address": "Улица Карла Маркса 4",
-        "cost": 2500
+        "cost": 2500,
+        "url": "https://raw.githubusercontent.com/Fargo02/Booking/first_screen/app/src/main/java/com/example/booking/database/Property2.png"
       },
       {
         "category": "Дом",
@@ -102,7 +114,8 @@
         "rating": 4.9,
         "site": "Красноясрк",
         "address": "Улица Железняков 57",
-        "cost": 3500
+        "cost": 3500,
+        "url": "https://raw.githubusercontent.com/Fargo02/Booking/first_screen/app/src/main/java/com/example/booking/database/Property5.png"
       },
       {
         "category": "Дом",
@@ -110,7 +123,8 @@
         "rating": 4.8,
         "site": "Красноярск",
         "address": "Поселок Березовка 10",
-        "cost": 4500
+        "cost": 4500,
+        "url": "https://raw.githubusercontent.com/Fargo02/Booking/first_screen/app/src/main/java/com/example/booking/database/Property3.png"
       },
       {
         "category": "Дом",
@@ -118,7 +132,8 @@
         "rating": 4.7,
         "site": "Красноярск",
         "address": "Улица Ленина 123",
-        "cost": 2500
+        "cost": 2500,
+        "url": "https://raw.githubusercontent.com/Fargo02/Booking/first_screen/app/src/main/java/com/example/booking/database/Property2.png"
       },
       {
         "category": "Дом",
@@ -126,7 +141,8 @@
         "rating": 5.0,
         "site": "Красноярск",
         "address": "Проспект Мира 56",
-        "cost": 7000
+        "cost": 7000,
+        "url": "https://raw.githubusercontent.com/Fargo02/Booking/first_screen/app/src/main/java/com/example/booking/database/Property1.png"
       }
   ]
 }

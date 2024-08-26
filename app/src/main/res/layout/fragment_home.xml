@@ -113,7 +113,6 @@
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         tools:itemCount="2"
         tools:orientation="horizontal"
-        tools:listitem="@layout/location_item"
-        android:visibility="visible"/>
+        tools:listitem="@layout/location_item" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
