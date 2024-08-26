@@ -86,6 +86,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/value_32dp"
+        android:paddingEnd="@dimen/value_8dp"
+        android:paddingStart="@dimen/value_24dp"
+        android:clipToPadding="false"
         app:layout_constraintStart_toStartOf="@id/start_guideline_24dp"
         app:layout_constraintTop_toBottomOf="@id/location_image"
         app:layout_constraintEnd_toEndOf="@id/end_guideline_24dp"
@@ -94,5 +97,23 @@
         tools:orientation="horizontal"
         tools:listitem="@layout/categories_item"
         android:visibility="gone"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/location_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/value_24dp"
+        android:paddingEnd="@dimen/value_8dp"
+        android:paddingStart="24dp"
+        android:clipToPadding="false"
+        app:layout_constraintStart_toStartOf="@id/start_guideline_24dp"
+        app:layout_constraintTop_toBottomOf="@id/categories_list"
+        app:layout_constraintEnd_toEndOf="@id/end_guideline_24dp"
+        app:layout_goneMarginTop="100dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:itemCount="2"
+        tools:orientation="horizontal"
+        tools:listitem="@layout/location_item"
+        android:visibility="visible"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
